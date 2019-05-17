@@ -5,3 +5,9 @@ dataset1/out-segmentedMovie.tif
 dataset1/segmentedMovie.tif
 dataset1/single-color-out-segmentedMovie.tif
 dataset1/t1-trans-out-segmentedMovie.tif
+dataset2/*.tif
+dataset4/*.tif
+dataset5/*.tif
+dataset6/*.tif
+dataset7/*.tif
+dataset8/*.tif
