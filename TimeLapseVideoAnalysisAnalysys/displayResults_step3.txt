@@ -1,0 +1,85 @@
+Plot Shared Data
+# Plot Shared Data explanation
+ratio_sharedData
+text_sharedData
+
+Plot area, perimeter, NeighbourCounter
+# plot 3 graphs in a single window, input can be more than 1 cell
+ratio_3plot
+text_3plot
+
+Plot cells area
+# plot the area of the cells in a single graph, input can be more than 1 cell
+ratio_cellArea
+text_cellArea
+
+Plot cells perimeter
+# plot the perimeter of the cells in a single graph, input can be more than 1 cell
+ratio_cellPerimeter
+text_cellPerimeter
+
+Plot cells position
+# plot the position of the cells in a single graph, input can be more than 1 cell
+ratio_cellPosition
+text_cellPosition
+
+Plot cells neighbours counter
+# plot the number of neighbours the cells have in a single graph, input can be more than 1 cell
+ratio_cellNeighboursCounter
+text_cellNeighboursCounter
+
+Plot cell area+perimeter+position+neighboursCounter
+# Plot all the above in 4 different graphs but in a single window- input should be 1 cell
+ratio_4plot
+text_4plot
+
+Plot the size of the edge beatwean each 2 cells
+# input should be pair of cell lbls
+ratio_edgeSize
+text_edgeSize
+
+Get T1 transition movie
+# produce a new movie, which every 2 cells that are in T1 transition will be colored
+ratio_t1
+text_t1
+
+Get colored movie
+# produce a new RGB (colored) movie, instead of the grayscale one
+ratio_color
+text_color
+
+Menual correction the movie
+# turn all the cells lbl in the input to be the first lbl in the input
+ratio_menualCorrection
+text_menualCorrection
+
+Interactive choose cell labels
+# matlab open the first image and you can mark the cells you want to see
+# result willl be shown in the text box of the labels
+ratio_chooseLbl
+text_chooseLbl
+
+Fix Movie Drift
+# fix the drift of the movie
+# a new movie will be produced
+ratio_fixDrift
+text_fixDrift
+
+
+
+lblVecStr
+pushbutton1
+result
+
+# example for set element attribute
+	set(hObject, 'FontSize', 20);
+	set(handles.last, 'Enable', 'off');
+
+# example for run over all some struct fields
+	fields = fieldnames(handles)
+	for i = 1:numel(fields)
+	  elem = handles.(fields{i});
+	  a = get(elem)
+	end
+
+
